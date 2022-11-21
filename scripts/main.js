@@ -278,14 +278,14 @@ function isWinner(playerPoints, dealerPoints) { //function to take the points as
         disableB(); //disable the buttons
     }
     else if (playerPoints > dealerPoints) { //if player has more points than dealer
-        message("fuck you i won!"); //display
+        message("I won!"); //display
         disableB(); //disable the buttons
     }
     else if (dealerPoints > playerPoints) {
-        message("you suck at this game!");
+        message("you are bad at this game!");
         disableB(); //disable the buttons
     } else if (dealerPoints === playerPoints && dealerPoints > 0) { //in case tie
-        message("Its a mexican standoff");
+        message("Its a standoff");
         disableB(); //disable the buttons
     }
 
